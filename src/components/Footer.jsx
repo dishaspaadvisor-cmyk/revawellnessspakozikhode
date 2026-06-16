@@ -14,7 +14,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-white text-black">
       {/* Top Accent Border */}
       <div className="h-1 w-full bg-[#7E9957]" />
 
@@ -26,7 +26,7 @@ export default function Footer() {
               Reva Wellness Spa
             </h3>
 
-            <p className="leading-8 text-gray-300">
+            <p className="leading-8 text-[#7E9957]">
               Kerala's premier luxury wellness destination in Kozhikode. Experience world-class 
               spa treatments and therapies at Malaparamba, above Axis Bank.
             </p>
@@ -37,7 +37,7 @@ export default function Footer() {
                 href="https://in.pinterest.com/orangespaKozhikode12/"
                 target="_blank"
                 rel="noreferrer"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 transition-all duration-300 hover:bg-orange-700 hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300 hover:bg-orange-700 hover:text-[#7E9957]"
               >
                 <FaPinterestP />
               </a>
@@ -46,7 +46,7 @@ export default function Footer() {
                 href="https://www.facebook.com/orangespa.Kozhikode/"
                 target="_blank"
                 rel="noreferrer"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 transition-all duration-300  hover:from-pink-500 hover:bg-[#1877F2] hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300  hover:from-pink-500 hover:bg-[#1877F2] hover:text-white"
               >
                 <FaFacebookF />
               </a>
@@ -55,7 +55,7 @@ export default function Footer() {
                 href="https://wa.me/919371000458"
                 target="_blank"
                 rel="noreferrer"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 transition-all duration-300 hover:bg-[#25D366] hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300 hover:bg-[#25D366] hover:text-white"
               >
                 <FaWhatsapp />
               </a>
@@ -64,7 +64,7 @@ export default function Footer() {
                 href="https://www.youtube.com/@Orangespa.Kozhikode"
                 target="_blank"
                 rel="noreferrer"
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-zinc-900 transition-all duration-300 hover:bg-[#FF0000] hover:text-white"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300 hover:bg-[#FF0000] hover:text-white"
               >
                 <FaYoutube />
               </a>
@@ -77,7 +77,7 @@ export default function Footer() {
               Quick Links
             </h4>
 
-            <ul className="space-y-4 text-gray-300">
+            <ul className="space-y-4 text-[#7E9957]">
               <li>
                 <Link href="/" className="transition hover:text-[#7E9957]">
                   Home
@@ -134,7 +134,7 @@ export default function Footer() {
               Our Services
             </h4>
 
-            <ul className="space-y-4 text-gray-300">
+            <ul className="space-y-4 text-[#7E9957]">
               <li>
                 <Link
                   href="/services"
@@ -193,7 +193,7 @@ export default function Footer() {
               Contact Info
             </h4>
 
-            <div className="space-y-5 text-gray-300">
+            <div className="space-y-5 text-[#7E9957]">
               <div className="flex gap-4">
                 <FaMapMarkerAlt className="mt-1 text-[#7E9957]" />
                 <p>
@@ -231,19 +231,19 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-zinc-800">
-        <div className="border-t border-zinc-800">
-          <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-gray-400 md:flex-row">
+      <div className="border-t border-[#7E9957]">
+        <div className="border-t border-[#7E9957]">
+          <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-6 text-[#7E9957] md:flex-row">
             <p className="text-center md:text-left">
               © {new Date().getFullYear()} Reva Wellness Spa. All Rights Reserved.
             </p>
 
             <div className="flex gap-6">
-              <Link href="/privacy-policy" className="transition text-gray-400 hover:text-[#7E9957]">
+              <Link href="/privacy-policy" className="transition text-[#7E9957] hover:text-[#7E9957]">
                 Privacy Policy
               </Link>
 
-              <Link href="/terms" className="transition text-gray-400 hover:text-[#7E9957]">
+              <Link href="/terms" className="transition text-[#7E9957] hover:text-[#7E9957]">
                 Terms & Conditions
               </Link>
             </div>
