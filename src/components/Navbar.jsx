@@ -19,13 +19,13 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-[#F8F7F4] backdrop-blur-2xl border-b border-white/10 shadow-none">
+    <header className="sticky top-0 z-50 bg-[#F8F7F4] shadow-none">
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex h-24 items-center justify-between">
           
           {/* Logo */}
           <Link href="/" className="flex items-center justify-start h-full">
-            <div className="relative h-22 w-48 md:h-20 md:w-60">
+            <div className="relative h-52 w-48 md:h-20 md:w-60">
               <Image
                 src="/logo.png"
                 alt={SITE.title}

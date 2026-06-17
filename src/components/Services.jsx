@@ -5,7 +5,7 @@ import { SITE } from "@/lib/siteConfig";
 
 const services = [
   {
-    title: "Full Body Massage",
+    title: "Jacuzzi Massage",
     image: "/services/1.jpg",
     description:
       "Complete body relaxation therapy designed to reduce stress and improve circulation.",
