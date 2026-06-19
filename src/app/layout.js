@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        <meta name="google-site-verification" content="LrGNuKxSj2_7Jl6gWSrQ362tS4ZYZU-j0nfPaanKaDk" /> 
+        <meta name="google-site-verification" content="5iEJ1thWFOyt5Gqk34dLlMEU6AMS19N6GkQM8Z0mUL0" />
       </head>
       <body className="min-h-full flex flex-col">
         <Navbar />
