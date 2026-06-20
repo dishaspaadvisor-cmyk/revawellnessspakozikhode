@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   FaFacebookF,
   FaWhatsapp,
+  FaInstagram,
   FaYoutube,
   FaMapMarkerAlt,
   FaPhoneAlt,
@@ -34,7 +35,7 @@ export default function Footer() {
             {/* Social Media */}
             <div className="mt-8 flex gap-4">
               <a
-                href="https://in.pinterest.com/orangespaKozhikode12/"
+                href="https://www.pinterest.com/revawellnessspak/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300 hover:bg-orange-700 hover:text-[#7E9957]"
@@ -43,14 +44,21 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.facebook.com/orangespa.Kozhikode/"
+                href="https://www.facebook.com/profile.php?id=61588505632618"
                 target="_blank"
                 rel="noreferrer"
                 className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300  hover:from-pink-500 hover:bg-[#1877F2] hover:text-white"
               >
                 <FaFacebookF />
               </a>
-
+              <a
+                href="https://www.instagram.com/revawellnessspakozhikode/"
+                target="_blank"
+                rel="noreferrer"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300  hover:from-pink-500 hover:bg-red-400 hover:text-white"
+              >
+                <FaInstagram />
+              </a>
               <a
                 href="https://wa.me/918655700250"
                 target="_blank"
@@ -61,7 +69,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.youtube.com/@Orangespa.Kozhikode"
+                href="https://www.youtube.com/@RevaWellnessSpaKozhikode"
                 target="_blank"
                 rel="noreferrer"
                 className="flex h-12 w-12 items-center justify-center rounded-full bg-[#7E9957] transition-all duration-300 hover:bg-[#FF0000] hover:text-white"
