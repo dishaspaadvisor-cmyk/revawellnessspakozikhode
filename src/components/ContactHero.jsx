@@ -30,9 +30,7 @@ export default function ContactHeroSection() {
           </span>
 
           <h1 className="mt-8 text-4xl font-bold leading-tight md:text-6xl">
-            Get In Touch
-            <br />
-            With Reva Wellness Spa
+            Contact the Best Spa in Kozhikode Today
           </h1>
 
           <div
@@ -40,10 +38,10 @@ export default function ContactHeroSection() {
             style={{ backgroundColor: SITE.brand }}
           />
 
-          <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
+          {/* <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
             Contact our team for bookings, enquiries, and personalized
             spa recommendations. We are always ready to assist you.
-          </p>
+          </p> */}
 
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a

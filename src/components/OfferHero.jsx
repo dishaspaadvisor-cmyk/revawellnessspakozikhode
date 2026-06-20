@@ -35,9 +35,7 @@ export default function OffersHeroSection() {
 
           {/* Heading */}
           <h1 className="mt-6 text-3xl font-bold leading-tight sm:text-4xl md:mt-8 md:text-6xl">
-            Exclusive Spa Deals
-            <br />
-            & Wellness Packages
+            Exclusive & Affordable offers at All Packages
           </h1>
 
           {/* Line */}
@@ -47,14 +45,14 @@ export default function OffersHeroSection() {
           />
 
           {/* Description */}
-          <p className="mx-auto mt-6 max-w-3xl px-2 text-sm leading-7 text-gray-200 sm:text-base sm:leading-8 md:mt-8 md:text-xl md:leading-9">
+          {/* <p className="mx-auto mt-6 max-w-3xl px-2 text-sm leading-7 text-gray-200 sm:text-base sm:leading-8 md:mt-8 md:text-xl md:leading-9">
             Enjoy exclusive discounts on premium massage therapies,
             wellness treatments, and luxury spa experiences at
             Reva Wellness Spa.
-          </p>
+          </p> */}
 
           {/* Buttons */}
-          <div className="mt-8 flex flex-col gap-3 sm:mt-10 sm:flex-row sm:justify-center sm:gap-4">
+          <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a
               href={`tel:${SITE.phoneCall}`}
               className="rounded-full px-8 py-4 text-center font-semibold text-white transition hover:opacity-90"

@@ -12,13 +12,13 @@ import "swiper/css/pagination";
 const slides = [
   {
     image: "/hero/hero1.jpg",
-    title: "Premium Spa & Massage",
+    title: "Luxury Spa in Kozhikode",
     description:
       "Experience luxury wellness therapies, professional massage services, and complete relaxation at Reva Wellness Spa.",
   },
   {
     image: "/hero/hero2.jpg",
-    title: "Complete Wellness Experience",
+    title: "Expert Staff is Available",
     description:
       "Refresh your body, calm your mind, and restore your energy with our premium spa treatments and expert therapists.",
   },
@@ -26,7 +26,7 @@ const slides = [
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen min-h-[700px] overflow-hidden">
+    <section className="relative h-[450px] overflow-hidden sm:h-[500px] md:h-[600px]">
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         effect="fade"
@@ -40,7 +40,7 @@ export default function HeroSection() {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="relative h-screen min-h-[700px]">
+            <div className="relative h-[450px] overflow-hidden sm:h-[500px] md:h-[600px]">
               {/* Background */}
               <Image
                 src={slide.image}
@@ -80,9 +80,9 @@ export default function HeroSection() {
                   />
 
                   {/* Description */}
-                  <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
+                  {/* <p className="mx-auto mt-8 max-w-3xl text-lg leading-9 text-gray-200 md:text-xl">
                     {slide.description}
-                  </p>
+                  </p> */}
 
                   {/* Buttons */}
                   <div className="mt-10 flex flex-wrap justify-center gap-4">
